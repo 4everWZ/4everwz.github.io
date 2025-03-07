@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.my_link {
+    color: #007bff;
+    /* 默认颜色 */
+    text-decoration: none;
+    /* 去掉下划线 */
+}
+
+.my_link:visited {
+    color: #007bff;
+    /* 已访问链接颜色 */
+}
+
+.my_link:hover {
+    color: #007bff;         /* 颜色不变 */
+    text-decoration: underline; /* 悬停时加下划线 */
+}
+
+.my_link:active {
+    color: #007bff;
+    /* 点击时颜色 */
+}
+
+/* 新增容器样式 */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sidebar {
+    width: 300px;
+    position: fixed;
+    /* 保持浮动效果 */
+    top: 0;
+    left: 50%;
+    /* 将侧边栏定位到页面中间 */
+    transform: translateX(-50%);
+    /* 水平居中调整 */
+    height: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-left: -30%;
+    /* 调整侧边栏在容器内的位置 */
+}
+
+.sidebar img {
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    /* color: #333; */
+}
+
+.sidebar a:hover {
+    color: #007bff;
+}
+
+.content {
+    width: 60%;
+    /* 设定固定宽度 */
+    padding: 20px;
+    margin-left: 25%;
+    /* 留出空间以适应侧边栏 */
+}
+
+.content h1 {
+    margin-top: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
