@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 ---
-I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (2021 - Present, GPA: 90.0/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>nature language processing</u>***, with a focus on solving real-world problems through innovative technology.
+I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (2021 - Present, GPA: 90.0/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>natural language processing</u>***, with a focus on solving real-world problems through innovative technology.
 
 **Goal:** Apply for AIML msc and Ph.D degree in the future.
 
