@@ -41,7 +41,7 @@ body {
     /* 将侧边栏定位到页面中间 */
     transform: translateX(-50%);
     /* 水平居中调整 */
-    height: 50%;
+    height: 75%;
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
