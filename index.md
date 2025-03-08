@@ -5,9 +5,9 @@ title: Home
 ---
 I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (2021 - Present, GPA: 90.0/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>natural language processing</u>***, with a focus on solving real-world problems through innovative technology.
 
-**Goal:** Apply for AIML msc and Ph.D degree in the future.
+**Goal:** I am now applying for Artificial intelligence and Machine Learning MSc and Ph.D degree.
 
-**Focus:**  How to make **<u>computer vision</u>** more accurate and faster to detect on **<u>edge devices</u>** such as **<u>drones</u>**? How to make the organic combination of **<u>multimodal model</u>** and UAV more effective, safety and accurate.
+**Focus:**  How to make **<u>computer vision</u>** more accurate and faster to detect on **<u>edge devices</u>** such as **<u>drones</u>**. How to make the organic combination of **<u>multimodal model</u>** and UAV more effective, safety and accurate.
 
 **Method:** Utilizing Machine Learning and Deep Learning methods in drones, robots, and other edge device.
 
