@@ -3,6 +3,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+.name-header {
+    text-align: center; /* 居中显示 */
+    margin: 20px 0; /* 上下间距 */
+    font-size: 2.5em; /* 确保 H1 大小，可根据需要调整 */
+    color: #333; /* 与页面其他文本颜色一致 */
+}
+
 .my_link {
     color: #007bff;
     /* 默认颜色 */
