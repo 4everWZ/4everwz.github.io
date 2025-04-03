@@ -34,9 +34,9 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 
 ## Patents
 
-- **Invention Patent** (Under Substantive Examination): "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones." Application No. [CN 119429233 A](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=119429233A&KC=A&FT=D) ([CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui)).
+- **Invention Patent** (Under Substantive Examination): "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones." Application No. [CN 119429233 A](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=119429233A&KC=A&FT=D).
 
-- **Utility Model Patent** (Granted): "Automatic Battery Change Arm for Drones." Patent No. [ZL 2023 2 3426097.6](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=221214664U&KC=U&FT=D) ([CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui)).
+- **Utility Model Patent** (Granted): "Automatic Battery Change Arm for Drones." Patent No. [ZL 2023 2 3426097.6](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=221214664U&KC=U&FT=D).
 
 
 
