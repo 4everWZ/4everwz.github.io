@@ -44,7 +44,7 @@ body {
     width: 15%;
     position: fixed;
     /* 保持浮动效果 */
-    top: 0;
+    top: 80px;
     left: 50%;
     /* 将侧边栏定位到页面中间 */
     transform: translateX(-50%);
