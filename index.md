@@ -5,7 +5,7 @@ title: Home
 ---
 I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (2021 - Present, GPA: 90.0/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>natural language processing</u>***, with a focus on solving real-world problems through innovative technology.
 
-**Goal:** I am now applying for Artificial intelligence and Machine Learning MSc and Ph.D degree.
+**Goal:** I am now applying for Artificial intelligence and Machine Learning MSc degree.
 
 **Focus:**  How to make **<u>computer vision</u>** more accurate and faster to detect on **<u>edge devices</u>** such as **<u>drones</u>**. How to make the organic combination of **<u>multimodal model</u>** and UAV more effective, safety and accurate.
 
@@ -13,7 +13,9 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 
 ---
 ## News
-- [02/2024] working on mindspore opensource internship
+- [03/2025] Published a paper on Journal of Computer and Communications.
+- [02/2024] working on mindspore opensource internship.
+- [11/2024] Filed an invention patent application for "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones".
 - [07/2024] Published a paper on improved YOLOv8 for industrial meter readings at EIBDCT 2024.
 - [06/2024] Presented real-time truck monitoring research at RAIIC 2024.
 - [01/2024] Started internship at Beijing Elite Intelligence Company on drone-based inspection and rescue.
@@ -23,10 +25,14 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 ---
 
 ## Publications
-
+- Ren, G. , Wu, J. and Wang, W. (2025) Research on UAV Target Detection Based on Improved YOLOv11. Journal of Computer and Communications, 13, 74-85. doi: 10.4236/jcc.2025.133006.
 - Wang, W., Wu, J., et al. (2024). "Real-time monitoring of trucks used in open pit based on aerial video of UAV." *2024 3rd International Conference on Robotics, Artificial Intelligence and Intelligent Control (RAIIC)*, 130-138. [DOI: 10.1109/RAIIC61787.2024.10671199](https://doi.org/10.1109/RAIIC61787.2024.10671199).  
 - Wu, J., Wang, W., et al. (2024). "Research on industrial meter readings based on improved YOLOv8." *Proc. SPIE 13181, Third International Conference on Electronic Information Engineering, Big Data, and Computer Technology (EIBDCT 2024)*, 131815G. [DOI: 10.1117/12.3031129](https://doi.org/10.1117/12.3031129).
 - Wu, J., Wang, W., et al. (2023). "Study on the Application of Real-Time Drone Monitoring in Ordos Open-Pit Coal Mine." *Open Journal of Applied Sciences*, 13, 483-495. [DOI: 10.4236/ojapps.2023.134039](https://doi.org/10.4236/ojapps.2023.134039).  
+
+## Patents
+- **Utility Model Patent** (Granted): "Automatic Battery Change Arm for Drones." Patent No. ZL 2023 2 3426097.6. [Link](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=221214664U&KC=U&FT=D) | [CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui).  
+- **Invention Patent** (Under Substantive Examination): "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones." Application No. CN 119429233 A. [Link](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=119429233A&KC=A&FT=D) | [CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui).
 
 ---
 
