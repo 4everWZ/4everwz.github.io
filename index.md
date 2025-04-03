@@ -30,9 +30,12 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 - Wu, J., Wang, W., et al. (2024). "Research on industrial meter readings based on improved YOLOv8." *Proc. SPIE 13181, Third International Conference on Electronic Information Engineering, Big Data, and Computer Technology (EIBDCT 2024)*, 131815G. [DOI: 10.1117/12.3031129](https://doi.org/10.1117/12.3031129).
 - Wu, J., Wang, W., et al. (2023). "Study on the Application of Real-Time Drone Monitoring in Ordos Open-Pit Coal Mine." *Open Journal of Applied Sciences*, 13, 483-495. [DOI: 10.4236/ojapps.2023.134039](https://doi.org/10.4236/ojapps.2023.134039).  
 
+---
+
 ## Patents
-- **Utility Model Patent** (Granted): "Automatic Battery Change Arm for Drones." Patent No. ZL 2023 2 3426097.6. [Link](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=221214664U&KC=U&FT=D) | [CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui).  
-- **Invention Patent** (Under Substantive Examination): "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones." Application No. CN 119429233 A. [Link](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=119429233A&KC=A&FT=D) | [CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui).
+- **Utility Model Patent** (Granted): "Automatic Battery Change Arm for Drones." Patent No. [ZL 2023 2 3426097.6](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=221214664U&KC=U&FT=D) ([CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui)).  
+- **Invention Patent** (Under Substantive Examination): "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones." Application No. [CN 119429233 A](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=119429233A&KC=A&FT=D) ([CNIPA](https://pss-system.cponline.cnipa.gov.cn/documents/detail?prevPageTit=changgui)).
+
 
 ---
 
