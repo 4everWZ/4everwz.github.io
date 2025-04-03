@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
+/* 新增样式：页面顶部的名字 */
 .name-header {
     text-align: center; /* 居中显示 */
     margin: 20px 0; /* 上下间距 */
@@ -44,7 +44,7 @@ body {
     width: 15%;
     position: fixed;
     /* 保持浮动效果 */
-    top: 80px;
+    top: 0;
     left: 50%;
     /* 将侧边栏定位到页面中间 */
     transform: translateX(-50%);
