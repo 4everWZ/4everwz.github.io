@@ -43,17 +43,19 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 
 ## Projects
 
+### Robotics plus Applications: Automatic Inspection and Rescue Based on Drone Nest  
+
+*January 2024 - July 2024*  
+**Beijing Elite Intelligence Company & North China Institute of Science and Technology**  
+
+- Built services including water count detection, conveyor belt deviation detection, and truck tracking using DeepSort+YOLOv8 in open-pit mines.  
+- Technical Stack: PyTorch, ONNX, Linux, YOLO.
+
 ### Baiyangdian Ecological Internet of Things Three-dimensional Monitoring System  
 *June 2023 - January 2024*  
 **Hebei Province Key Scientific Research and Development Project (Project Number: 19270318D)**  
 - Developed object detection for mining trucks using Yolov7tiny (Darknet), improving recognition accuracy by 2% with minimal FPS loss.  
 - Enhanced dual-modal (infrared-visible light) object detection with YOLOv8 for drone-based low-altitude monitoring, achieving 65% mAP at 30 FPS on a laptop.
-
-### Robotics plus Applications: Automatic Inspection and Rescue Based on Drone Nest  
-*January 2024 - July 2024*  
-**Beijing Elite Intelligence Company & North China Institute of Science and Technology**  
-- Built services including water count detection, conveyor belt deviation detection, and truck tracking using DeepSort+YOLOv8 in open-pit mines.  
-- Technical Stack: PyTorch, ONNX, Linux, YOLO.
 
 ---
 
