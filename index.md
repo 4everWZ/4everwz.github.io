@@ -14,7 +14,7 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 ---
 ## News
 - [03/2025] Published a paper on Journal of Computer and Communications.
-- [02/2024] working on mindspore opensource internship.
+- [02/2025] working on mindspore opensource internship.
 - [11/2024] Filed an invention patent application for "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones".
 - [07/2024] Published a paper on improved YOLOv8 for industrial meter readings at EIBDCT 2024.
 - [06/2024] Presented real-time truck monitoring research at RAIIC 2024.
