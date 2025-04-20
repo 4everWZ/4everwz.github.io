@@ -1,1 +1,1 @@
-# [My personal site](https://4everimmortality.github.io/WeizhengWang.github.io/)
+# [My personal site](https://4everimmortality.github.io/)
