@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 ---
-I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (2021 - Present, GPA: 90.0/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>natural language processing</u>***, with a focus on solving real-world problems through innovative technology.
+I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (9/2021 - 7/2025, GPA: 90.84/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>natural language processing</u>***, with a focus on solving real-world problems through innovative technology.
 
-**Goal:** I am now applying for Artificial intelligence and Machine Learning MSc degree.
+**Goal:** I am now applying for Artificial intelligence and Machine Learning master degree.
 
 **Focus:**  How to make **<u>computer vision</u>** more accurate and faster to detect on **<u>edge devices</u>** such as **<u>drones</u>**. How to make the organic combination of **<u>multimodal model</u>** and UAV more effective, safety and accurate.
 
@@ -21,7 +21,6 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 - [01/2024] Started internship at Beijing Elite Intelligence Company on drone-based inspection and rescue.
 - [12/2023] Awarded Utility Model Patent for "Automatic Battery Change Arm for Drones" (Patent No. ZL 202323426097.6).
 - [11/2023] Received Grand Award at National 3D Digitization Innovation Competition.
-
 ---
 
 ## Publications
