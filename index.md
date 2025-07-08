@@ -5,7 +5,7 @@ title: Home
 ---
 I am an undergraduate student pursuing a Bachelor's Degree in Computer Science and Technology at North China Institute of Science and Technology (9/2021 - 7/2025, GPA: 90.84/100). My interests lie in ***<u>deep learning</u>***, ***<u>computer vision</u>***, and ***<u>natural language processing</u>***, with a focus on solving real-world problems through innovative technology.
 
-**Goal:** I am now applying for Artificial intelligence and Machine Learning master degree.
+**Status:** I am starting my Master of Artificial Intelligence and Machine Learning at the University of Adelaide in September 2025. I am currently seeking part-time research assistant opportunities and planning for future PhD applications in the fields of computer vision, multimodal learning, and NLP.
 
 **Focus:**  How to make **<u>computer vision</u>** more accurate and faster to detect on **<u>edge devices</u>** such as **<u>drones</u>**. How to make the organic combination of **<u>multimodal model</u>** and UAV more effective, safety and accurate.
 
