@@ -13,6 +13,7 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 
 ---
 ## News
+- [04/2025] Received 2025 University of Adelaide Global Citizens 30% International Scholarship
 - [03/2025] Published a paper on Journal of Computer and Communications.
 - [02/2025] working on mindspore opensource internship.
 - [11/2024] Filed an invention patent application for "A Dual-Optical Personnel Search and Rescue Positioning Visual System on Drones".
@@ -21,6 +22,7 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 - [01/2024] Started internship at Beijing Elite Intelligence Company on drone-based inspection and rescue.
 - [12/2023] Awarded Utility Model Patent for "Automatic Battery Change Arm for Drones" (Patent No. ZL 202323426097.6).
 - [11/2023] Received Grand Award at National 3D Digitization Innovation Competition.
+
 ---
 
 ## Publications
