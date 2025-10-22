@@ -13,6 +13,8 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 
 ---
 ## News
+- [09/2025] Submitted to ICASSP 2026 – A Lightweight Thermal Denoising and Occlusion-Robust Infrared Detection Model for Substation Equipment
+- [09/2025] Submitted to Engineering Research Express – A Lightweight Insulator Defect Detection Algorithm Based on Drone Images for Power Line Inspection
 - [04/2025] Received 2025 University of Adelaide Global Citizens 30% International Scholarship
 - [03/2025] Published a paper on Journal of Computer and Communications.
 - [02/2025] working on mindspore opensource internship.
