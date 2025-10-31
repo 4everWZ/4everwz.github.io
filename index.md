@@ -27,7 +27,7 @@ I am an undergraduate student pursuing a Bachelor's Degree in Computer Science a
 ---
 
 ## Publications
-- Wu, J., **Wang, W.**, Du, W., Liu, Z., Lin, L., Cui, Y., Wang, C. and Tian, L. (2025). A lightweight insulator defect detection algorithm based on drone images for power line inspection. *Engineering Research Express*, 7, 015205. [DOI: 10.1088/2631-8695/ae19ce]:(https://doi.org/10.1088/2631-8695/ae19ce)
+- Wu, J., **Wang, W.**, Du, W., Liu, Z., Lin, L., Cui, Y., Wang, C. and Tian, L. (2025). A lightweight insulator defect detection algorithm based on drone images for power line inspection. *Engineering Research Express*, 7, 015205. [DOI: 10.1088/2631-8695/ae19ce](https://doi.org/10.1088/2631-8695/ae19ce)
 - Ren, G. , Wu, J. and **Wang, W.** (2025) Research on UAV Target Detection Based on Improved YOLOv11. *Journal of Computer and Communications*, 13, 74-85. [DOI: 10.4236/jcc.2025.133006](https://doi.org/10.4236/jcc.2025.133006).
 - **Wang, W.**, Wu, J., et al. (2024). "Real-time monitoring of trucks used in open pit based on aerial video of UAV." *2024 3rd International Conference on Robotics, Artificial Intelligence and Intelligent Control (RAIIC)*, 130-138. [DOI: 10.1109/RAIIC61787.2024.10671199](https://doi.org/10.1109/RAIIC61787.2024.10671199).  
 - Wu, J., **Wang, W.**, et al. (2024). "Research on industrial meter readings based on improved YOLOv8." *Proc. SPIE 13181, Third International Conference on Electronic Information Engineering, Big Data, and Computer Technology (EIBDCT 2024)*, 131815G. [DOI: 10.1117/12.3031129](https://doi.org/10.1117/12.3031129).
