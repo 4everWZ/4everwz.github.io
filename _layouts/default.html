@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-shell site-header-inner">
+      <a class="site-brand" href="{{ '/' | relative_url }}">
+        <span class="site-brand-name">{{ site.author.name }}</span>
+        <span class="site-brand-native">{{ site.author.native_name }}</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav-list">
+          <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
+          {% for item in site.navigation %}
+            <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="site-shell">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-shell site-footer-inner">
+      <div>
+        <p class="site-footer-title">{{ site.author.name }}{% if site.author.native_name %} · {{ site.author.native_name }}{% endif %}</p>
+        <p class="site-footer-text">{{ site.author.role }}{% if site.author.affiliation %} at {{ site.author.affiliation }}{% endif %}</p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="{{ site.author.cv | relative_url }}">CV</a></li>
+        {% for link in site.social_links %}
+          <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+        {% endfor %}
+        <li><a href="{{ '/writing/' | relative_url }}">Writing</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

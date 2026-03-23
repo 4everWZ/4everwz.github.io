@@ -1,0 +1,48 @@
+title: Weizheng Wang
+email: weizheng.wang.cs@gmail.com
+description: >-
+  Personal website of Weizheng Wang, a Master's student in Artificial Intelligence
+  and Machine Learning at the University of Adelaide, with interests in computer
+  vision, multimodal learning, and edge intelligence for UAV systems.
+baseurl: ""
+url: "https://4everwz.github.io"
+github_username: 4everWZ
+
+author:
+  name: Weizheng Wang
+  native_name: 王维政
+  role: Master's student in Artificial Intelligence and Machine Learning
+  affiliation: University of Adelaide
+  location: Adelaide, Australia
+  cv: /assets/CV.pdf
+
+navigation:
+  - title: About
+    url: /about/
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: Awards
+    url: /awards/
+
+social_links:
+  - label: GitHub
+    url: https://github.com/4everWZ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/weizheng-wang-720232372
+  - label: Kaggle
+    url: https://www.kaggle.com/volantchantal
+  - label: Email
+    url: mailto:weizheng.wang.cs@gmail.com
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
