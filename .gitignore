@@ -4,4 +4,8 @@ _site
 .jekyll-metadata
 vendor
 .claude
+.superpowers/
+.playwright-cli/
+.jekyll-runtime/
+output/
 .DS_Store

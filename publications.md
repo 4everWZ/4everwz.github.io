@@ -3,9 +3,14 @@ layout: page
 title: Publications
 permalink: /publications/
 section: Research
-description: Publications and patents related to UAV perception, edge intelligence, and applied computer vision.
+description: Under-review work, published papers, and patents related to UAV perception, edge intelligence, and applied computer vision.
 ---
-## Publications
+## Under Review
+<ul class="publication-list">
+  <li><strong>Wang, W.</strong>, Wu, J. and Tian, L. (2025). A Lightweight Thermal Denoising and Occlusion-Robust Infrared Detection Model for Substation Equipment. <em>Submitted to ICIP 2026</em>. <span class="status-label">Under review</span>. This work targets infrared imagery for substation equipment and is motivated by UAV/edge deployment constraints.</li>
+</ul>
+
+## Published Papers
 <ul class="publication-list">
   <li>Wu, J., <strong>Wang, W.</strong>, Du, W., Liu, Z., Lin, L., Cui, Y., Wang, C. and Tian, L. (2025). A lightweight insulator defect detection algorithm based on drone images for power line inspection. <em>Engineering Research Express</em>, 7, 015205. <a href="https://doi.org/10.1088/2631-8695/ae19ce">DOI: 10.1088/2631-8695/ae19ce</a></li>
   <li>Ren, G., Wu, J. and <strong>Wang, W.</strong> (2025). Research on UAV Target Detection Based on Improved YOLOv11. <em>Journal of Computer and Communications</em>, 13, 74-85. <a href="https://doi.org/10.4236/jcc.2025.133006">DOI: 10.4236/jcc.2025.133006</a></li>

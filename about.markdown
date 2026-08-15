@@ -3,32 +3,39 @@ layout: page
 title: About
 permalink: /about/
 section: Profile
-description: Background, academic trajectory, and research interests.
+description: Academic background, research interests, education, and contact information for Weizheng Wang.
 ---
-I completed my **Bachelor's degree in Computer Science and Technology** at **North China Institute of Science and Technology** (September 2021 – July 2025), where I graduated with a GPA of **90.84 / 100**. I am currently pursuing a **Master of Artificial Intelligence and Machine Learning** at the **University of Adelaide**.
+I am a master's student in **Artificial Intelligence and Machine Learning** at the **University of Adelaide**. My research interests include efficient computer vision, infrared-visible perception, multimodal learning, natural language processing, and robust machine learning systems for UAVs and edge devices.
 
-My interests center on **computer vision**, **multimodal learning**, and **natural language processing**, especially when these methods need to operate under real-world constraints. I am particularly interested in how machine learning systems can be deployed effectively on **UAVs, robots, and other edge devices** where latency, reliability, and hardware limitations matter.
+Before Adelaide, I completed a **B.Eng. in Computer Science and Technology** at **North China Institute of Science and Technology**, graduating with a GPA of **90.84/100**. My undergraduate research focused on UAV-based monitoring, object detection, dual-modal perception, and deployment-aware deep learning.
 
-At the moment, I am seeking research opportunities and preparing for future **PhD applications** in areas related to computer vision, multimodal perception, and robust intelligent systems.
+## Research Interests
 
-## Research interests
-- Efficient vision models for edge deployment
-- UAV-based perception and monitoring
-- Multimodal visible-infrared detection systems
-- Real-world machine learning systems for industrial and safety-critical environments
-- Connections between perception, robustness, and deployment efficiency
+- Efficient vision models for UAV and edge-device deployment
+- Infrared and visible-light object detection
+- Multimodal learning for practical perception systems
+- Natural language processing and vision-language model workflows
+- Robust learning under latency, reliability, and hardware constraints
 
 ## Education
+
 ### University of Adelaide
-**Master of Artificial Intelligence and Machine Learning**
-September 2025 – present
+
+**Master of Artificial Intelligence and Machine Learning**<br>
+September 2025–present
+
+- Recipient of the 2025 University of Adelaide Global Citizens 30% International Scholarship.
 
 ### North China Institute of Science and Technology
-**B.Eng. in Computer Science and Technology**
-September 2021 – July 2025
-GPA: 90.84 / 100
+
+**B.Eng. in Computer Science and Technology**<br>
+September 2021–July 2025
+
+- GPA: **90.84/100**.
+- Research and coursework focused on deep learning, computer vision, UAV perception, and edge intelligence.
 
 ## Contact
+
 - Email: [weizheng.wang.cs@gmail.com](mailto:weizheng.wang.cs@gmail.com)
 - GitHub: [4everWZ](https://github.com/4everWZ)
 - LinkedIn: [weizheng-wang-720232372](https://www.linkedin.com/in/weizheng-wang-720232372)
