@@ -1,5 +1,5 @@
 {% if total_pages > 1 %}
-<nav class="pagination" aria-label="{{ listing.title | escape }} pages ({{ include.position }})">
+<nav class="pagination" aria-label="{{ listing.title | escape }} pages">
   <p class="pagination-summary">{{ first_item }}–{{ last_item }} of {{ entries.size }} · Page {{ page.page_index }} of {{ total_pages }}</p>
   <div class="pagination-links">
     {% if page.page_index > 1 %}

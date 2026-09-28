@@ -9,14 +9,13 @@ layout: default
 {% assign first_item = page_offset | plus: 1 %}
 {% assign last_item = page_offset | plus: page_entries.size %}
 <article class="content-page">
-  <header class="page-header{% unless listing.note %} page-header--with-pagination{% endunless %}">
+  <header class="page-header page-header--listing">
     <p class="page-eyebrow">{{ listing.section }}</p>
     <h1 class="page-title">{{ listing.title }}</h1>
     <p class="page-intro">{{ listing.description }}</p>
     {% if listing.related_url %}<p><a href="{{ listing.related_url | relative_url }}">{{ listing.related_label }}</a></p>{% endif %}
   </header>
   {% if listing.note %}<p class="note">{{ listing.note }}</p>{% endif %}
-  {% include pagination.html position="top" %}
   <div class="page-content listing-content">
     {% assign groups = page_entries | group_by: 'group' %}
     {% for group in groups %}
@@ -42,5 +41,5 @@ layout: default
     </section>
     {% endif %}
   </div>
-  {% include pagination.html position="bottom" %}
+  {% include pagination.html %}
 </article>

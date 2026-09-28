@@ -29,7 +29,8 @@ listings.each do |key, listing|
     raise "Empty title: #{url}" unless html.include?(listing.fetch('title'))
 
     pagers = html.scan(/<nav class="pagination".*?<\/nav>/m)
-    raise "Missing top/bottom pagination: #{url}" unless pagers.size == 2
+    raise "Expected one bottom pagination control: #{url}" unless pagers.size == 1
+    raise "Pagination must follow all entries: #{url}" unless html.index(pagers.first) > html.rindex(/data-(?:entry|appendix)-id=/)
     pagers.each do |pager|
       raise "Wrong active page: #{url}" unless pager.include?(%{aria-current="page" aria-label="Page #{index + 1}"})
       links = pager.scan(/href="([^"]+)"/).flatten

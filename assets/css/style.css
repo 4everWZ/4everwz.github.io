@@ -406,9 +406,8 @@ img {
   border-bottom: 1px solid var(--border);
 }
 
-.page-header--with-pagination {
+.page-header--listing {
   margin-bottom: 0;
-  border-bottom: 0;
 }
 
 .page-eyebrow {

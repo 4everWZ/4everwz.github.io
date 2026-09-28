@@ -13,7 +13,7 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 - Link each collection to its complete content page instead of appending new homepage entries.
 - Keep `/about/` and `/projects/` available for existing links; use `/projects/` as the Research Experience page.
 - Use primary navigation for Home, Publications, Experience, Open Source, Awards, and CV.
-- Paginate complete lists using real static URLs and Previous / numbered pages / Next controls at both ends: four papers per page at `/publications/`, three experience entries per page at `/projects/`, and three curated projects per page at `/software/`. Later pages use `/page/2/`, etc., beneath each base URL. Each page must load directly without JavaScript and have its own canonical URL; preserve the active navigation section on every page.
+- Paginate complete lists using real static URLs and a single Previous / numbered pages / Next control below the list: four papers per page at `/publications/`, three experience entries per page at `/projects/`, and three curated projects per page at `/software/`. Later pages use `/page/2/`, etc., beneath each base URL. Each page must load directly without JavaScript and have its own canonical URL; preserve the active navigation section on every page.
 - Keep patents as a separate section after the final publication page. Short About and Awards pages remain unpaginated.
 
 ## Academic Content
@@ -35,7 +35,7 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 - Use typography, spacing, and horizontal rules for hierarchy; do not use cards, shadows, gradients, badge-like tags, or large marketing headlines.
 - Use a 2:1 desktop index and a priority-ordered single column on mobile.
 - Use 70% of the viewport for the desktop shell, leaving approximately 15% on each side and a slightly wider reading area than the references at typical desktop sizes. Full content pages use this shell width instead of a narrower inner column. Keep the homepage column gap at 2rem and portrait/text gap at 1.75rem; use 24px side margins on tablets, 16px on small tablets, and 12px on phones.
-- When pagination immediately follows a page header, share a single dividing rule and omit the extra gap between them. Keep the publication-status note visually separate where present.
+- Separate listing headers from the content with a single rule and compact spacing. Keep pagination only below the list and keep the publication-status note visually separate where present.
 - Keep the homepage within approximately 2.5 viewports at 1440×1000 and 4.5 viewports at 390×844.
 - Preserve visible keyboard focus, semantic headings, a skip link, explicit image dimensions, and layouts without horizontal overflow.
 
