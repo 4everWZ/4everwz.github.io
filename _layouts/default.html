@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>{% if page.title and page.title != 'Home' %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines | escape }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
@@ -44,6 +45,7 @@
 
       <ul class="footer-links">
         <li><a href="{{ site.author.cv | relative_url }}">CV</a></li>
+        <li><a href="{{ site.author.cv_zh | relative_url }}" lang="zh">中文简历</a></li>
         {% for link in site.social_links %}
           <li><a href="{{ link.url }}">{{ link.label }}</a></li>
         {% endfor %}

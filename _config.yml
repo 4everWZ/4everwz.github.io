@@ -2,10 +2,10 @@ title: Weizheng Wang
 email: weizheng.wang.cs@gmail.com
 description: >-
   Academic website of Weizheng Wang, a master's student and AI researcher at
-  the University of Adelaide working on computer vision, multimodal learning,
-  UAV perception, edge intelligence, and natural language processing.
+  the University of Adelaide working on multimodal UAV decision evaluation,
+  visual memory, efficient computer vision, and edge deployment.
 baseurl: ""
-url: "https://4everwz.github.io"
+url: "https://wz-wang.com"
 github_username: 4everWZ
 
 author:
@@ -15,6 +15,7 @@ author:
   affiliation: University of Adelaide
   location: Adelaide, Australia
   cv: /assets/CV.pdf
+  cv_zh: /assets/CV-zh.pdf
 
 navigation:
   - title: Publications
@@ -35,6 +36,14 @@ social_links:
 theme: minima
 plugins:
   - jekyll-feed
+
+exclude:
+  - tmp/
+  - docs/
+  - scripts/
+  - README.md
+  - vendor/
+  - .jekyll-runtime/
 
 defaults:
   - scope:

@@ -9,3 +9,5 @@ vendor
 .jekyll-runtime/
 output/
 .DS_Store
+tmp/
+.bundle/

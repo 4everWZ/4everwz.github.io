@@ -16,9 +16,12 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 
 ## Academic Content
 
-- Selected publications: the ICIP 2026 under-review submission, the 2025 Engineering Research Express paper, and the 2024 RAIIC paper.
-- Selected experience: Huawei MindSpore/MindNLP, Automatic Inspection and Rescue Based on Drone Nest, and the Baiyangdian Ecological IoT Monitoring System.
-- Research positioning: computer vision, multimodal learning, UAV perception, edge intelligence, infrared-visible perception, and natural language processing.
+- Content source: the English complete CV (`resume.tex`, `resume/`, `resume.pdf`) and Chinese PDF in `D:\Code\Latex\Awesome_CV`, synchronized September 2026. The upstream `cv.tex` is not a personal CV.
+- Selected publications: MulRobBench (submitted to Applied Soft Computing), TRIM (submitted to IEEE ICASSP 2027), and the IEEE ICIP 2026 thermal detection paper. Mark equal contributions and distinguish submitted manuscripts from peer-reviewed publications.
+- The publications page includes all six submitted manuscripts and four peer-reviewed papers in the CV, plus the two earlier papers on Improved YOLOv11 and Ordos mine monitoring retained at the owner's request. Preserve older awards as well.
+- Selected experience: Zayed University/MulRobBench, Huawei MindSpore/MindNLP, and Automatic Inspection and Rescue Based on Drone Nest. Keep Baiyangdian on the complete experience page, alongside collaborative research and selected research software.
+- Research positioning: multimodal UAV decision evaluation, visual episodic memory, efficient computer vision, structured pruning, and edge deployment.
+- Keep September 2026 graduation marked as expected until degree completion is confirmed. Preserve project participation versus leadership and the stated limits of software benchmarks.
 - Non-academic product projects, job-application language, recruiter-facing technical-stack summaries, and an Industry Track do not belong in the primary academic path.
 
 ## Visual Contract
@@ -32,6 +35,8 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 ## Maintenance Rule
 
 Homepage collections have fixed capacities. When adding a stronger or newer item, replace the least relevant existing preview and keep the complete record on the corresponding content page.
+
+Use `https://wz-wang.com` as the canonical origin and `wz-wang.com` in `CNAME`. Offer English and Chinese CV downloads; keep the existing English PDF URLs working. Exclude maintenance documentation, scripts, and temporary artifacts from the built site.
 
 ## Verification
 
