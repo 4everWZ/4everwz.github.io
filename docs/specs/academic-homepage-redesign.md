@@ -33,6 +33,7 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 - Use a white background, dark neutral text, light rules, and one blue link color.
 - Use typography, spacing, and horizontal rules for hierarchy; do not use cards, shadows, gradients, badge-like tags, or large marketing headlines.
 - Use a 2:1 desktop index and a priority-ordered single column on mobile.
+- Use 80% of the viewport for the desktop shell, leaving approximately 10% on each side. Full content pages use this shell width instead of a narrower inner column. Keep the homepage column gap at 2rem and portrait/text gap at 1.75rem; use 24px side margins on tablets, 16px on small tablets, and 12px on phones.
 - Keep the homepage within approximately 2.5 viewports at 1440×1000 and 4.5 viewports at 390×844.
 - Preserve visible keyboard focus, semantic headings, a skip link, explicit image dimensions, and layouts without horizontal overflow.
 
