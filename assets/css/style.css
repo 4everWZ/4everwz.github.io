@@ -144,6 +144,7 @@ img {
 
 .site-nav-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
   gap: 1.2rem;
@@ -509,6 +510,91 @@ img {
 .project-meta {
   margin: -0.35rem 0 0.75rem;
   font-size: 0.92rem;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  padding: 0.85rem 0;
+  border-block: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.pagination-summary {
+  margin: 0;
+  color: var(--muted);
+}
+
+.pagination-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.pagination-links > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  min-height: 2.75rem;
+  padding-inline: 0.6rem;
+}
+
+.pagination-links [aria-current="page"] {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--link);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3em;
+}
+
+.pagination-links [aria-disabled="true"] {
+  color: var(--muted);
+}
+
+.listing-content {
+  padding-block: 1.25rem;
+}
+
+.listing-group + .listing-group {
+  margin-top: 1.75rem;
+}
+
+.listing-group > h2 {
+  margin: 0 0 0.65rem;
+}
+
+.listing-entry {
+  padding-block: 0.85rem;
+}
+
+.listing-entry + .listing-entry {
+  border-top: 1px solid var(--border);
+}
+
+.listing-entry > h3 {
+  margin-top: 0;
+}
+
+.listing-entry > :last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .site-header-inner {
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5rem;
+    padding-block: 0.65rem;
+  }
+
+  .site-nav-list {
+    justify-content: flex-start;
+  }
 }
 
 .writing-list,

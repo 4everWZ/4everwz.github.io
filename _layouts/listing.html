@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% assign listing = site.data.listings[page.list_key] %}
+{% assign entries = site.data[page.list_key] %}
+{% assign total_pages = entries.size | times: 1.0 | divided_by: listing.per_page | ceil %}
+{% assign page_offset = page.page_index | minus: 1 | times: listing.per_page %}
+{% assign page_entries = entries | slice: page_offset, listing.per_page %}
+{% assign first_item = page_offset | plus: 1 %}
+{% assign last_item = page_offset | plus: page_entries.size %}
+<article class="content-page">
+  <header class="page-header">
+    <p class="page-eyebrow">{{ listing.section }}</p>
+    <h1 class="page-title">{{ listing.title }}</h1>
+    <p class="page-intro">{{ listing.description }}</p>
+    {% if listing.related_url %}<p><a href="{{ listing.related_url | relative_url }}">{{ listing.related_label }}</a></p>{% endif %}
+  </header>
+  {% if listing.note %}<p class="note">{{ listing.note }}</p>{% endif %}
+  {% include pagination.html position="top" %}
+  <div class="page-content listing-content">
+    {% assign groups = page_entries | group_by: 'group' %}
+    {% for group in groups %}
+    <section class="listing-group" aria-labelledby="{{ group.name | slugify }}">
+      <h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
+      {% for entry in group.items %}
+      <article class="listing-entry" data-entry-id="{{ entry.id }}" aria-labelledby="{{ entry.id }}">
+        <h3 id="{{ entry.id }}">{{ entry.title }}</h3>
+        {{ entry.content | markdownify }}
+      </article>
+      {% endfor %}
+    </section>
+    {% endfor %}
+    {% if listing.appendix and page.page_index == total_pages %}
+    <section class="listing-group" aria-labelledby="{{ listing.appendix }}">
+      <h2 id="{{ listing.appendix }}">{{ listing.appendix_title }}</h2>
+      {% for entry in site.data[listing.appendix] %}
+      <article class="listing-entry" data-appendix-id="{{ entry.id }}" aria-labelledby="{{ entry.id }}">
+        <h3 id="{{ entry.id }}">{{ entry.title }}</h3>
+        {{ entry.content | markdownify }}
+      </article>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </div>
+  {% include pagination.html position="bottom" %}
+</article>

@@ -1,0 +1,27 @@
+publications:
+  title: Publications
+  section: Research
+  description: Preprints, submitted manuscripts, peer-reviewed papers, and patents in multimodal UAV evaluation, visual memory, and efficient computer vision.
+  base_url: /publications/
+  per_page: 4
+  note: '<sup>†</sup> Equal contribution. Submitted manuscripts are not yet accepted.'
+  appendix: patents
+  appendix_title: Patents
+
+experience:
+  title: Research Experience
+  section: Research
+  description: Research appointments and collaborative projects in multimodal UAV evaluation, efficient perception, and edge deployment.
+  base_url: /projects/
+  per_page: 3
+  related_url: /software/
+  related_label: Explore selected open-source projects
+
+software:
+  title: Open Source
+  section: Selected Work
+  description: Six selected projects in edge AI, computer vision, research tools, and desktop software.
+  base_url: /software/
+  per_page: 3
+  related_url: /assets/CV.pdf
+  related_label: Download the complete CV

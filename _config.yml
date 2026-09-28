@@ -22,6 +22,8 @@ navigation:
     url: /publications/
   - title: Experience
     url: /projects/
+  - title: Open Source
+    url: /software/
   - title: Awards
     url: /awards/
   - title: CV

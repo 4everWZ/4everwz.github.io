@@ -1,0 +1,6 @@
+{%- if include.number == 1 -%}
+  {{- include.base_url | relative_url -}}
+{%- else -%}
+  {%- assign listing_path = include.base_url | append: 'page/' | append: include.number | append: '/' -%}
+  {{- listing_path | relative_url -}}
+{%- endif -%}

@@ -1,0 +1,66 @@
+- id: "zayed-university"
+  group: "Research Appointments"
+  title: "Zayed University"
+  content: |
+    <p class="project-meta">Research Assistant · February 2026–present · Remote</p>
+
+    Co-developed **MulRobBench**, an offline benchmark for safe and security-policy-compliant multimodal UAV agents.
+
+    - Co-defined protocol-conditioned UAV decision tasks and a 3,024-sample benchmark spanning 17 task-taxonomy nodes under visual degradation and noisy operator instructions.
+    - Built data generation, inference, and evaluation pipelines for 17 multimodal models, with semantic and structural diagnostics for safety-policy compliance.
+    - Co-first-authored the manuscript, submitted to *Applied Soft Computing*. [Preprint](https://arxiv.org/abs/2607.23870).
+- id: "huawei-mindspore-open-source-community"
+  group: "Research Appointments"
+  title: "Huawei MindSpore Open-Source Community"
+  content: |
+    <p class="project-meta">Research Intern · February 2025–June 2025 · Remote</p>
+
+    Contributed to the **MindNLP** open-source project within the MindSpore ecosystem, implementing and fine-tuning Autoformer, BEiT, and ALBERT models.
+
+    - Worked on model integration, training stability, and cross-task evaluation across NLP and vision-language tasks.
+    - Improved the reproducibility and robustness of training workflows through open-source issue, review, and documentation processes.
+- id: "automatic-inspection-and-rescue-based-on-drone-nest"
+  group: "Research Appointments"
+  title: "Automatic Inspection and Rescue Based on Drone Nest"
+  content: |
+    <p class="project-meta">Research Intern · January 2024–July 2024 · Beijing Elite Intelligence Company and North China Institute of Science and Technology</p>
+
+    Developed UAV-based inspection services for open-pit mine scenarios, including water counting, conveyor-belt deviation detection, and truck tracking.
+
+    - Used DeepSORT and YOLOv8 for practical UAV inspection and rescue pipelines.
+    - Optimized PyTorch detection models and exported them through ONNX for real-time inference on edge devices.
+- id: "baiyangdian-ecological-iot-monitoring-system"
+  group: "Research Appointments"
+  title: "Baiyangdian Ecological IoT Monitoring System"
+  content: |
+    <p class="project-meta">Undergraduate Researcher · June 2023–January 2024 · Hebei Province Key Scientific Research and Development Project, No. 19270318D</p>
+
+    Studied efficient object detection for mining trucks and low-altitude UAV monitoring under practical deployment constraints.
+
+    - Developed mining-truck detection using YOLOv7-tiny and Darknet, improving recognition accuracy by 2% with minimal FPS loss.
+    - Enhanced infrared-visible UAV object detection with YOLOv8, achieving 65% mAP at 30 FPS on a laptop while targeting edge deployment.
+- id: "national-undergraduate-innovation-and-entrepreneurship-training"
+  group: "Collaborative Research Projects"
+  title: "National Undergraduate Innovation and Entrepreneurship Training"
+  content: |
+    **Project lead**, 202411104021 (2024), working on UAV perception, automated inspection, and edge inference. Also participated in collaborating student projects 202511104021, 202511104025, and 202611104287.
+- id: "multimodal-perception-and-emergency-decision-research"
+  group: "Collaborative Research Projects"
+  title: "Multimodal Perception and Emergency Decision Research"
+  content: |
+    **Research participant**, National Key R&D projects 2024YFC3016800 and 2024YFC3016805. Contributed to H2T-DEIM, TRIM, ManiSeg, visual episodic-memory diagnostics, and EmergUAV-Bench through model implementation, evaluation pipelines, feature analysis, and multimodal benchmarking.
+- id: "intelligent-mine-inspection-and-monitoring"
+  group: "Collaborative Research Projects"
+  title: "Intelligent Mine Inspection and Monitoring"
+  content: |
+    **Research participant**, projects 2022YFC3004702-4 and HNCTR23-05. Related work includes mining-truck detection and tracking, standing-water counting, and conveyor-belt deviation detection for mine monitoring and industrial inspection.
+- id: "multimodal-airborne-search-and-rescue-equipment"
+  group: "Collaborative Research Projects"
+  title: "Multimodal Airborne Search-and-Rescue Equipment"
+  content: |
+    **Research participant**, equipment development and demonstration involving infrared-visible UAV detection, personnel search and localization, and edge inference. Related regional programs include 202622003010002, 25350802D, and 2025011099.
+- id: "iot-research-platforms-and-collaborative-research-funds"
+  group: "Collaborative Research Projects"
+  title: "IoT Research Platforms and Collaborative Research Funds"
+  content: |
+    **Research participant**, sensing, visual detection, and research software associated with Hebei and Qinghai IoT research platforms, the Fundamental Research Funds for the Central Universities, and a Hebei collaborative innovation project. Project identifiers: 21567693H, 2017-ZJ-Y21, 3142024038, 3142026024, and 262Y5403D.

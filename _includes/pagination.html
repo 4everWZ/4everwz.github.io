@@ -1,0 +1,26 @@
+{% if total_pages > 1 %}
+<nav class="pagination" aria-label="{{ listing.title | escape }} pages ({{ include.position }})">
+  <p class="pagination-summary">{{ first_item }}–{{ last_item }} of {{ entries.size }} · Page {{ page.page_index }} of {{ total_pages }}</p>
+  <div class="pagination-links">
+    {% if page.page_index > 1 %}
+      {% assign previous_number = page.page_index | minus: 1 %}
+      <a rel="prev" href="{% include listing-url.html base_url=listing.base_url number=previous_number %}">Previous</a>
+    {% else %}
+      <span aria-disabled="true">Previous</span>
+    {% endif %}
+    {% for number in (1..total_pages) %}
+      {% if number == page.page_index %}
+        <span aria-current="page" aria-label="Page {{ number }}">{{ number }}</span>
+      {% else %}
+        <a aria-label="Page {{ number }}" href="{% include listing-url.html base_url=listing.base_url number=number %}">{{ number }}</a>
+      {% endif %}
+    {% endfor %}
+    {% if page.page_index < total_pages %}
+      {% assign next_number = page.page_index | plus: 1 %}
+      <a rel="next" href="{% include listing-url.html base_url=listing.base_url number=next_number %}">Next</a>
+    {% else %}
+      <span aria-disabled="true">Next</span>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

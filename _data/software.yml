@@ -1,0 +1,42 @@
+- id: "jetson-vlm-lab"
+  group: "Selected Projects"
+  title: "Jetson VLM Lab"
+  content: |
+    <p class="item-meta">Edge AI · <a href="https://github.com/4everWZ/jetson-vlm-lab">GitHub</a></p>
+
+    GGUF vision-language model deployment and text/image smoke evaluation on Jetson using llama.cpp and Docker.
+- id: "deim-jetson"
+  group: "Selected Projects"
+  title: "DEIM Jetson Acceleration"
+  content: |
+    <p class="item-meta">Edge AI · <a href="https://github.com/4everWZ/DEIM_Jetson_Acceleration">GitHub</a></p>
+
+    ONNX/TensorRT deployment and FP16/INT8 benchmarking with correctness, latency, and power measurements.
+- id: "video-alert-system"
+  group: "Selected Projects"
+  title: "Video-based Intelligent Alert System"
+  content: |
+    <p class="item-meta">Computer vision · <a href="https://github.com/4everWZ/Video-based-Intelligent-Alert-System">GitHub</a></p>
+
+    Undergraduate thesis: multi-stream video monitoring, open-vocabulary detection, alerts, and multimodal Q&A.
+- id: "dailypaper"
+  group: "Selected Projects"
+  title: "DailyPaper"
+  content: |
+    <p class="item-meta">Research tools · <a href="https://github.com/4everWZ/DailyPaper">GitHub</a></p>
+
+    Automated AI paper collection with a searchable, categorized web archive.
+- id: "cleanslatetab"
+  group: "Selected Projects"
+  title: "CleanSlateTab"
+  content: |
+    <p class="item-meta">Browser extension · <a href="https://github.com/4everWZ/CleanSlateTab">GitHub</a></p>
+
+    Browser new-tab extension with configurable search, shortcuts, wallpapers, and WebDAV sync.
+- id: "snappin"
+  group: "Selected Projects"
+  title: "SnapPin"
+  content: |
+    <p class="item-meta">Desktop software · <a href="https://github.com/4everWZ/SnapPin">GitHub</a></p>
+
+    C++ Windows utility for screenshots, annotation, OCR, and pinned images.

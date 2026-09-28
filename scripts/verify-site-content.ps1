@@ -36,20 +36,20 @@ Assert-FileContains -Path "index.md" -Pattern "Zayed University" -Message "Homep
 Assert-FileContains -Path "index.md" -Pattern "Huawei MindSpore" -Message "Homepage should include the MindSpore research internship"
 
 Assert-FileContains -Path "about.markdown" -Pattern "Research Interests" -Message "About page should foreground research interests"
-Assert-FileContains -Path "projects.md" -Pattern "title: Research Experience" -Message "The projects URL should now present research experience"
-Assert-FileContains -Path "projects.md" -Pattern "MindNLP" -Message "Research experience should include MindNLP work"
-Assert-FileContains -Path "publications.md" -Pattern "Submitted to <em>Applied Soft Computing" -Message "MulRobBench should use the CV's current submission venue"
-Assert-FileContains -Path "publications.md" -Pattern "Submitted to <em>Remote Sensing" -Message "H2T-DEIM should use the CV's current submission venue"
-Assert-FileContains -Path "publications.md" -Pattern "submitted manuscripts are not yet accepted" -Message "Submission status should be explicit"
-Assert-FileContains -Path "publications.md" -Pattern "045355" -Message "The Engineering Research Express article number should match the CV"
-Assert-FileContains -Path "publications.md" -Pattern "Improved YOLOv11" -Message "The earlier YOLOv11 paper should be retained"
-Assert-FileContains -Path "publications.md" -Pattern "Ordos Open-Pit Coal Mine" -Message "The earlier Ordos paper should be retained"
-$publications = Get-Content -Raw -LiteralPath "publications.md"
+Assert-FileContains -Path "_data/listings.yml" -Pattern "title: Research Experience" -Message "The projects URL should now present research experience"
+Assert-FileContains -Path "_data/experience.yml" -Pattern "MindNLP" -Message "Research experience should include MindNLP work"
+Assert-FileContains -Path "_data/publications.yml" -Pattern "Submitted to <em>Applied Soft Computing" -Message "MulRobBench should use the CV's current submission venue"
+Assert-FileContains -Path "_data/publications.yml" -Pattern "Submitted to <em>Remote Sensing" -Message "H2T-DEIM should use the CV's current submission venue"
+Assert-FileContains -Path "_data/listings.yml" -Pattern "Submitted manuscripts are not yet accepted" -Message "Submission status should be explicit"
+Assert-FileContains -Path "_data/publications.yml" -Pattern "045355" -Message "The Engineering Research Express article number should match the CV"
+Assert-FileContains -Path "_data/publications.yml" -Pattern "Improved YOLOv11" -Message "The earlier YOLOv11 paper should be retained"
+Assert-FileContains -Path "_data/publications.yml" -Pattern "Ordos Open-Pit Coal Mine" -Message "The earlier Ordos paper should be retained"
+$publications = Get-Content -Raw -LiteralPath "_data/publications.yml"
 if ([regex]::Matches($publications, 'Submitted to <em>').Count -ne 6 -or
     [regex]::Matches($publications, 'Submitted to <em>IEEE ICASSP 2027').Count -ne 4) {
   throw "Publications should include six submitted manuscripts, four submitted to ICASSP 2027"
 }
-@("index.md", "publications.md") | ForEach-Object {
+@("index.md", "_data/publications.yml") | ForEach-Object {
   Assert-FileNotContains -Path $_ -Pattern "Submitted to ICIP|Under review" -Message "Publication status should not use the outdated ICIP submission or unconfirmed review status"
 }
 Assert-FileContains -Path "awards.md" -Pattern "Challenge Cup" -Message "Awards page should include Challenge Cup recognition"
@@ -62,7 +62,7 @@ if ((Get-Content -Raw -LiteralPath "CNAME").Trim() -ne "wz-wang.com") {
   throw "CNAME should match the configured custom domain"
 }
 Assert-FileContains -Path "index.md" -Pattern "Sep\. 2026 \(expected\)" -Message "Graduation should remain expected until confirmed"
-Assert-FileContains -Path "projects.md" -Pattern "full labeled COCO AP and repeated timing trials remain pending" -Message "Jetson benchmark limitations should remain explicit"
+Assert-FileContains -Path "_data/software.yml" -Pattern "smoke evaluation" -Message "Jetson VLM validation should stay within the CV scope"
 
 @("index.md", "about.markdown", "_config.yml") | ForEach-Object {
   Assert-FileNotContains -Path $_ -Pattern "Industry Track" -Message "Academic pages should not expose an industry track"
@@ -70,7 +70,7 @@ Assert-FileContains -Path "projects.md" -Pattern "full labeled COCO AP and repea
   Assert-FileNotContains -Path $_ -Pattern "AI/ML researcher and builder" -Message "Academic pages should not use the old dual-track identity"
 }
 
-@("index.md", "projects.md") | ForEach-Object {
+@("index.md", "_data/experience.yml") | ForEach-Object {
   Assert-FileNotContains -Path $_ -Pattern "CleanSlateTab|SnapPin|DailyPaper|research-writing-harness" -Message "Primary academic pages should omit unrelated product projects"
 }
 
