@@ -9,7 +9,7 @@ layout: default
 {% assign first_item = page_offset | plus: 1 %}
 {% assign last_item = page_offset | plus: page_entries.size %}
 <article class="content-page">
-  <header class="page-header">
+  <header class="page-header{% unless listing.note %} page-header--with-pagination{% endunless %}">
     <p class="page-eyebrow">{{ listing.section }}</p>
     <h1 class="page-title">{{ listing.title }}</h1>
     <p class="page-intro">{{ listing.description }}</p>
