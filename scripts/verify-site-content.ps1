@@ -29,7 +29,7 @@ function Assert-FileNotContains {
 Assert-FileContains -Path "index.md" -Pattern "Weizheng Wang" -Message "Homepage should lead with the academic identity"
 Assert-FileContains -Path "index.md" -Pattern "Selected Publications" -Message "Homepage should include a selected publications index"
 Assert-FileContains -Path "index.md" -Pattern "Research Experience" -Message "Homepage should include selected research experience"
-Assert-FileContains -Path "index.md" -Pattern "MulRobBench" -Message "Homepage should feature MulRobBench"
+Assert-FileContains -Path "index.md" -Pattern "When Retrieval Is Not Binding" -Message "Homepage should feature the first-listed co-first-author visual-memory manuscript"
 Assert-FileContains -Path "index.md" -Pattern "TRIM:" -Message "Homepage should feature the structured-pruning manuscript"
 Assert-FileContains -Path "index.md" -Pattern "IEEE ICIP" -Message "Homepage should feature the ICIP paper"
 Assert-FileContains -Path "index.md" -Pattern "Zayed University" -Message "Homepage should include the current research assistant role"

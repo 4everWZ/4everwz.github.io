@@ -17,7 +17,8 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 ## Academic Content
 
 - Content source: the English complete CV (`resume.tex`, `resume/`, `resume.pdf`) and Chinese PDF in `D:\Code\Latex\Awesome_CV`, synchronized September 2026. The upstream `cv.tex` is not a personal CV.
-- Selected publications: MulRobBench (submitted to Applied Soft Computing), TRIM (submitted to IEEE ICASSP 2027), and the IEEE ICIP 2026 thermal detection paper. Mark equal contributions and distinguish submitted manuscripts from peer-reviewed publications.
+- Selected publications prioritize first-author and co-first-author work, with first-listed authorship first: TRIM and When Retrieval Is Not Binding (both submitted to IEEE ICASSP 2027), followed by the co-first-authored IEEE ICIP 2026 thermal detection paper. Mark equal contributions and distinguish submitted manuscripts from peer-reviewed publications.
+- Group publications by year in descending order, keeping submission status on each manuscript. Use the submission year (2026) for ICASSP 2027 manuscripts, not the conference edition. Within a year, preserve CV order when precise dates are unavailable; keep patents separate.
 - The publications page includes all six submitted manuscripts and four peer-reviewed papers in the CV, plus the two earlier papers on Improved YOLOv11 and Ordos mine monitoring retained at the owner's request. Preserve older awards as well.
 - Selected experience: Zayed University/MulRobBench, Huawei MindSpore/MindNLP, and Automatic Inspection and Rescue Based on Drone Nest. Keep Baiyangdian on the complete experience page, alongside collaborative research and selected research software.
 - Research positioning: multimodal UAV decision evaluation, visual episodic memory, efficient computer vision, structured pruning, and edge deployment.

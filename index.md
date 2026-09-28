@@ -35,12 +35,12 @@ title: Home
     </div>
     <ol class="academic-list publication-preview-list">
       <li>
-        <p class="item-title">MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents</p>
-        <p>B. S. Alsinglawi<sup>†</sup>, <strong>W. Wang<sup>†</sup></strong>, J. Wu<sup>†</sup>, et al. Submitted to <em>Applied Soft Computing</em>, 2026. <a href="https://arxiv.org/abs/2607.23870">Preprint</a></p>
-      </li>
-      <li>
         <p class="item-title">TRIM: Dual-Budget Structured Pruning with Information-Modulated Saliency for CNN, Transformer, and Mamba Vision Models</p>
         <p><strong>W. Wang<sup>†</sup></strong>, J. Wu<sup>†</sup>, Q. Tian, and L. Tian. Submitted to <em>IEEE ICASSP 2027</em>, 2026. <a href="https://github.com/4everWZ/TRIM">Repository</a></p>
+      </li>
+      <li>
+        <p class="item-title">When Retrieval Is Not Binding: A Diagnostic Benchmark for Visual Episodic Memory</p>
+        <p><strong>W. Wang<sup>†</sup></strong>, J. Wu<sup>†</sup>, L. Tian, and Q. Tian. Submitted to <em>IEEE ICASSP 2027</em>, 2026. <a href="https://github.com/4everWZ/retrieval-not-binding">Repository</a></p>
       </li>
       <li>
         <p class="item-title">A Lightweight Thermal Denoising and Occlusion-Robust Infrared Detection Model for Substation Equipment</p>
