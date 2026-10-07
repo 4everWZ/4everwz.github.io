@@ -32,7 +32,7 @@ Assert-FileContains -Path "index.md" -Pattern "Research Experience" -Message "Ho
 Assert-FileContains -Path "index.md" -Pattern "When Retrieval Is Not Binding" -Message "Homepage should feature the first-listed co-first-author visual-memory manuscript"
 Assert-FileContains -Path "index.md" -Pattern "TRIM:" -Message "Homepage should feature the structured-pruning manuscript"
 Assert-FileContains -Path "index.md" -Pattern "IEEE ICIP" -Message "Homepage should feature the ICIP paper"
-Assert-FileContains -Path "index.md" -Pattern "Zayed University" -Message "Homepage should include the current research assistant role"
+Assert-FileContains -Path "index.md" -Pattern "Zayed University" -Message "Homepage should include the research assistant experience"
 Assert-FileContains -Path "index.md" -Pattern "Huawei MindSpore" -Message "Homepage should include the MindSpore research internship"
 
 Assert-FileContains -Path "about.markdown" -Pattern "Research Interests" -Message "About page should foreground research interests"
@@ -61,7 +61,19 @@ Assert-FileContains -Path "_config.yml" -Pattern 'url: "https://wz-wang\.com"' -
 if ((Get-Content -Raw -LiteralPath "CNAME").Trim() -ne "wz-wang.com") {
   throw "CNAME should match the configured custom domain"
 }
-Assert-FileContains -Path "index.md" -Pattern "Sep\. 2026 \(expected\)" -Message "Graduation should remain expected until confirmed"
+@("index.md", "about.markdown") | ForEach-Object {
+  Assert-FileContains -Path $_ -Pattern "18 August 2026" -Message "Degree completion date should be current"
+  Assert-FileContains -Path $_ -Pattern "7 October 2026" -Message "Degree conferral date should be current"
+  Assert-FileContains -Path $_ -Pattern "[Tt]estamur issued by (\*\*)?Adelaide University" -Message "Testamur issuer should be explicit"
+  Assert-FileContains -Path $_ -Pattern "GPA[^\r\n]*4\.02" -Message "Undergraduate GPA should use the confirmed value"
+}
+@("index.md", "about.markdown", "_config.yml") | ForEach-Object {
+  Assert-FileNotContains -Path $_ -Pattern "master's student|expected|90\.84|4\.02\s*/" -Message "Profile should not contain stale degree or unverified GPA wording"
+}
+@("index.md", "_data/experience.yml") | ForEach-Object {
+  Assert-FileContains -Path $_ -Pattern "Research Assistant · February–August 2026 · Remote" -Message "Research assistant appointment should use the completed contract dates"
+  Assert-FileNotContains -Path $_ -Pattern "Research Assistant[^\r\n]*present" -Message "Research assistant appointment should not imply current employment"
+}
 Assert-FileContains -Path "_data/software.yml" -Pattern "smoke evaluation" -Message "Jetson VLM validation should stay within the CV scope"
 
 @("index.md", "about.markdown", "_config.yml") | ForEach-Object {

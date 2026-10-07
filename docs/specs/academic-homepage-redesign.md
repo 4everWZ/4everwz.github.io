@@ -25,7 +25,9 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 - Selected experience: Zayed University/MulRobBench, Huawei MindSpore/MindNLP, and Automatic Inspection and Rescue Based on Drone Nest. Keep Baiyangdian and collaborative research in the paginated experience list.
 - Open-source selection follows the latest CV: Jetson VLM Lab, DEIM Jetson Acceleration, Video-based Intelligent Alert System (undergraduate thesis), DailyPaper, CleanSlateTab, and SnapPin. Give each a concise factual description and repository link on the dedicated Open Source page. Exclude miscellaneous tools and unprofessional repository names from both the site selection and downloadable CVs.
 - Research positioning: multimodal UAV decision evaluation, visual episodic memory, efficient computer vision, structured pruning, and edge deployment.
-- Keep September 2026 graduation marked as expected until degree completion is confirmed. Preserve project participation versus leadership and the stated limits of software benchmarks.
+- The Master of Artificial Intelligence and Machine Learning was completed on 18 August 2026 and conferred on 7 October 2026, with the testamur issued by Adelaide University. Preserve the University of Adelaide name for historical study and scholarship references; do not describe the degree as expected or the owner as a current master's student.
+- The first Zayed University Research Assistant contract ran from February to August 2026 and has ended; do not imply current employment. State the undergraduate GPA as 4.02 without an unverified scale or conversion.
+- Preserve project participation versus leadership and the stated limits of software benchmarks.
 - Keep the homepage and research experience focused on academic work; the dedicated Open Source page may include the selected browser and desktop software in the CV. Job-application language, recruiter-facing technical-stack summaries, and an Industry Track do not belong in the primary academic path.
 
 ## Visual Contract

@@ -13,8 +13,8 @@ title: Home
 
   <div class="profile-summary">
     <h1 id="profile-name">Weizheng Wang <span lang="zh">王维政</span></h1>
-    <p class="profile-role">Master's student in Artificial Intelligence and Machine Learning at the University of Adelaide</p>
-    <p>I study multimodal UAV decision evaluation, visual memory, efficient computer vision, and edge deployment. I am also a remote Research Assistant at Zayed University, working on protocol-conditioned evaluation of multimodal UAV agents.</p>
+    <p class="profile-role">Master of Artificial Intelligence and Machine Learning graduate</p>
+    <p>I study multimodal UAV decision evaluation, visual memory, efficient computer vision, and edge deployment. From February to August 2026, I worked remotely as a Research Assistant at Zayed University on protocol-conditioned evaluation of multimodal UAV agents.</p>
     <p>Before Adelaide, I completed a B.Eng. in Computer Science and Technology at North China Institute of Science and Technology, where I worked on UAV monitoring, object detection, and practical perception systems.</p>
     <p class="research-interests"><strong>Research interests:</strong> multimodal evaluation, visual episodic memory, efficient vision, structured pruning, and UAV/edge AI.</p>
     <ul class="profile-links" aria-label="Profile links">
@@ -69,7 +69,7 @@ title: Home
     <ol class="academic-list experience-preview-list">
       <li>
         <p class="item-title">Zayed University</p>
-        <p class="item-meta">Research Assistant · February 2026–present · Remote</p>
+        <p class="item-meta">Research Assistant · February–August 2026 · Remote</p>
         <p>Co-developed MulRobBench: 3,024 UAV decision samples across 17 task-taxonomy nodes, with evaluation pipelines for 17 multimodal models.</p>
       </li>
       <li>
@@ -91,12 +91,12 @@ title: Home
     </div>
     <ul class="compact-academic-list compact-academic-list--stacked">
       <li>
-        <time>Sep. 2025–Sep. 2026 (expected)</time>
-        <span><strong>University of Adelaide</strong><br>Master of Artificial Intelligence and Machine Learning</span>
+        <time>Sep. 2025–Aug. 2026</time>
+        <span><strong>University of Adelaide / Adelaide University</strong><br>Master of Artificial Intelligence and Machine Learning<br>Completed 18 August 2026; degree conferred 7 October 2026<br>Testamur issued by Adelaide University</span>
       </li>
       <li>
         <time>2021–2025</time>
-        <span><strong>North China Institute of Science and Technology</strong><br>B.Eng. in Computer Science and Technology, GPA 90.84/100</span>
+        <span><strong>North China Institute of Science and Technology</strong><br>B.Eng. in Computer Science and Technology, GPA 4.02</span>
       </li>
     </ul>
   </section>

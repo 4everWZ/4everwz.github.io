@@ -1,9 +1,9 @@
 title: Weizheng Wang
 email: weizheng.wang.cs@gmail.com
 description: >-
-  Academic website of Weizheng Wang, a master's student and AI researcher at
-  the University of Adelaide working on multimodal UAV decision evaluation,
-  visual memory, efficient computer vision, and edge deployment.
+  Academic website of Weizheng Wang, an AI researcher and master's graduate
+  working on multimodal UAV decision evaluation, visual memory, efficient
+  computer vision, and edge deployment.
 baseurl: ""
 url: "https://wz-wang.com"
 github_username: 4everWZ
@@ -11,8 +11,7 @@ github_username: 4everWZ
 author:
   name: Weizheng Wang
   native_name: 王维政
-  role: Master's student and AI researcher
-  affiliation: University of Adelaide
+  role: AI researcher and master's graduate
   location: Adelaide, Australia
   cv: /assets/CV.pdf
   cv_zh: /assets/CV-zh.pdf
