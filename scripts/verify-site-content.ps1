@@ -45,9 +45,9 @@ Assert-FileContains -Path "_data/publications.yml" -Pattern "045355" -Message "T
 Assert-FileContains -Path "_data/publications.yml" -Pattern "Improved YOLOv11" -Message "The earlier YOLOv11 paper should be retained"
 Assert-FileContains -Path "_data/publications.yml" -Pattern "Ordos Open-Pit Coal Mine" -Message "The earlier Ordos paper should be retained"
 $publications = Get-Content -Raw -LiteralPath "_data/publications.yml"
-if ([regex]::Matches($publications, 'Submitted to <em>').Count -ne 6 -or
+if ([regex]::Matches($publications, 'Submitted to <em>').Count -ne 7 -or
     [regex]::Matches($publications, 'Submitted to <em>IEEE ICASSP 2027').Count -ne 4) {
-  throw "Publications should include six submitted manuscripts, four submitted to ICASSP 2027"
+  throw "Publications should include seven submitted manuscripts, four submitted to ICASSP 2027"
 }
 @("index.md", "_data/publications.yml") | ForEach-Object {
   Assert-FileNotContains -Path $_ -Pattern "Submitted to ICIP|Under review" -Message "Publication status should not use the outdated ICIP submission or unconfirmed review status"

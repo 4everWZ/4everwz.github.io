@@ -92,7 +92,7 @@ title: Home
     <ul class="compact-academic-list compact-academic-list--stacked">
       <li>
         <time>Sep. 2025–Aug. 2026</time>
-        <span><strong>University of Adelaide / Adelaide University</strong><br>Master of Artificial Intelligence and Machine Learning<br>Completed 18 August 2026; degree conferred 7 October 2026<br>Testamur issued by Adelaide University</span>
+        <span><strong>University of Adelaide / Adelaide University</strong><br>Master of Artificial Intelligence and Machine Learning<br>Completed the two-year master’s programme within one year.<br>Completed 18 August 2026; degree conferred 7 October 2026<br>Testamur issued by Adelaide University</span>
       </li>
       <li>
         <time>2021–2025</time>

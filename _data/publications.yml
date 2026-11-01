@@ -1,3 +1,8 @@
+- id: "fhs-deim"
+  group: "2026"
+  title: "FHS-DEIM: Frequency-Aware Hybrid Encoding with Spiral Mamba for Infrared UAV Search and Rescue"
+  content: |
+    <p>2026 · Submitted to <em>Journal of King Saud University Computer and Information Sciences</em>; technical checks passed.</p>
 - id: "mulrobbench"
   group: "2026"
   title: "MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents"

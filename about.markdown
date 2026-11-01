@@ -27,6 +27,7 @@ Before Adelaide, I completed a **B.Eng. in Computer Science and Technology** at 
 September 2025–August 2026
 
 - Commenced at the University of Adelaide; completed **18 August 2026**.
+- Completed the two-year master’s programme within one year.
 - Degree conferred **7 October 2026**; testamur issued by **Adelaide University**.
 - Recipient of the 2025 University of Adelaide Global Citizens 30% International Scholarship.
 
