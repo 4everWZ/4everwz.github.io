@@ -45,6 +45,18 @@ Assert-FileContains -Path "_data/publications.yml" -Pattern "045355" -Message "T
 Assert-FileContains -Path "_data/publications.yml" -Pattern "Improved YOLOv11" -Message "The earlier YOLOv11 paper should be retained"
 Assert-FileContains -Path "_data/publications.yml" -Pattern "Ordos Open-Pit Coal Mine" -Message "The earlier Ordos paper should be retained"
 $publications = Get-Content -Raw -LiteralPath "_data/publications.yml"
+$gold = [regex]::Match($publications, '(?ms)^- id: "gold-volatility".*?(?=^- id:|\z)').Value
+if (-not $gold -or [regex]::Matches($publications, '^- id: "gold-volatility"', 'Multiline').Count -ne 1) {
+  throw "The accepted Mathematics paper should occur exactly once"
+}
+if ($gold -notmatch 'Xueping Diao<sup>\*</sup>, Xueqiang Lv, <strong>Weizheng Wang</strong>, Junyi Wu' -or
+    $gold -notmatch 'Accepted for publication in <em>Mathematics</em> \(MDPI\), 2 November 2026' -or
+    $gold -match 'Under revision|Submitted to|doi\.org') {
+  throw "The Mathematics citation should preserve verified authors and acceptance without invented publication details"
+}
+if ([regex]::Matches($publications, '^- id:', 'Multiline').Count -ne 14) {
+  throw "Publications should retain all 13 earlier entries plus the accepted Mathematics paper"
+}
 if ([regex]::Matches($publications, 'Submitted to <em>').Count -ne 7 -or
     [regex]::Matches($publications, 'Submitted to <em>IEEE ICASSP 2027').Count -ne 4) {
   throw "Publications should include seven submitted manuscripts, four submitted to ICASSP 2027"

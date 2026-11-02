@@ -17,6 +17,12 @@
     <p>Junyi Wu<sup>†</sup>, <strong>Weizheng Wang<sup>†</sup></strong>, Liqin Tian, Qing Tian, Yong Niu, Yi Jiang.</p>
     <p>2026 · Submitted to <em>Remote Sensing</em>.</p>
     <p>Combines Hilbert-Mamba context modeling, Haar wavelet downsampling, and structured pruning across CNN, Transformer, and state-space widths for maritime small-object detection and Jetson deployment.</p>
+- id: "gold-volatility"
+  group: "2026"
+  title: "A Multi-Source Data Fusion and PSO-Transformer Decision Support System for Gold Price Volatility Forecasting and Risk Warning"
+  content: |
+    <p>Xueping Diao<sup>*</sup>, Xueqiang Lv, <strong>Weizheng Wang</strong>, Junyi Wu.</p>
+    <p>2026 · Accepted for publication in <em>Mathematics</em> (MDPI), 2 November 2026.</p>
 - id: "trim"
   group: "2026"
   title: "TRIM: Dual-Budget Structured Pruning with Information-Modulated Saliency for CNN, Transformer, and Mamba Vision Models"

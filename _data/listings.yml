@@ -1,10 +1,10 @@
 publications:
   title: Publications
   section: Research
-  description: Preprints, submitted manuscripts, peer-reviewed papers, and patents in multimodal UAV evaluation, visual memory, and efficient computer vision.
+  description: Accepted papers, preprints, submitted manuscripts, peer-reviewed papers, and patents in multimodal UAV evaluation, visual memory, and efficient computer vision.
   base_url: /publications/
   per_page: 4
-  note: '<sup>†</sup> Equal contribution. Submitted manuscripts are not yet accepted.'
+  note: '<sup>†</sup> Equal contribution. <sup>*</sup> Corresponding author. Submitted manuscripts are not yet accepted.'
   appendix: patents
   appendix_title: Patents
 
