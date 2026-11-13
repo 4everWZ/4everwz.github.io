@@ -30,7 +30,9 @@ Assert-FileContains -Path "index.md" -Pattern "Weizheng Wang" -Message "Homepage
 Assert-FileContains -Path "index.md" -Pattern "Selected Publications" -Message "Homepage should include a selected publications index"
 Assert-FileContains -Path "index.md" -Pattern "Research Experience" -Message "Homepage should include selected research experience"
 Assert-FileContains -Path "index.md" -Pattern "When Retrieval Is Not Binding" -Message "Homepage should feature the first-listed co-first-author visual-memory manuscript"
-Assert-FileContains -Path "index.md" -Pattern "TRIM:" -Message "Homepage should feature the structured-pruning manuscript"
+Assert-FileContains -Path "index.md" -Pattern "MulRobBench:" -Message "Homepage should feature the MulRobBench preprint"
+Assert-FileContains -Path "index.md" -Pattern "jetson-vlm-lab" -Message "Homepage should link the Jetson VLM Lab project"
+Assert-FileContains -Path "index.md" -Pattern "DEIM_Jetson_Acceleration" -Message "Homepage should link the DEIM Jetson project"
 Assert-FileContains -Path "index.md" -Pattern "IEEE ICIP" -Message "Homepage should feature the ICIP paper"
 Assert-FileContains -Path "index.md" -Pattern "Zayed University" -Message "Homepage should include the research assistant experience"
 Assert-FileContains -Path "index.md" -Pattern "Huawei MindSpore" -Message "Homepage should include the MindSpore research internship"
@@ -38,7 +40,10 @@ Assert-FileContains -Path "index.md" -Pattern "Huawei MindSpore" -Message "Homep
 Assert-FileContains -Path "about.markdown" -Pattern "Research Interests" -Message "About page should foreground research interests"
 Assert-FileContains -Path "_data/listings.yml" -Pattern "title: Research Experience" -Message "The projects URL should now present research experience"
 Assert-FileContains -Path "_data/experience.yml" -Pattern "MindNLP" -Message "Research experience should include MindNLP work"
-Assert-FileContains -Path "_data/publications.yml" -Pattern "Submitted to <em>Applied Soft Computing" -Message "MulRobBench should use the CV's current submission venue"
+$mulrobbench = [regex]::Match((Get-Content -Raw -LiteralPath "_data/publications.yml"), '(?ms)^- id: "mulrobbench".*?(?=^- id:|\z)').Value
+if ($mulrobbench -notmatch 'arXiv preprint' -or $mulrobbench -notmatch 'arxiv\.org/abs/2607\.23870' -or $mulrobbench -match 'Submitted to') {
+  throw "MulRobBench should link the arXiv preprint without a journal submission status"
+}
 Assert-FileContains -Path "_data/publications.yml" -Pattern "Submitted to <em>Remote Sensing" -Message "H2T-DEIM should use the CV's current submission venue"
 Assert-FileContains -Path "_data/listings.yml" -Pattern "Submitted manuscripts are not yet accepted" -Message "Submission status should be explicit"
 Assert-FileContains -Path "_data/publications.yml" -Pattern "045355" -Message "The Engineering Research Express article number should match the CV"
@@ -47,19 +52,19 @@ Assert-FileContains -Path "_data/publications.yml" -Pattern "Ordos Open-Pit Coal
 $publications = Get-Content -Raw -LiteralPath "_data/publications.yml"
 $gold = [regex]::Match($publications, '(?ms)^- id: "gold-volatility".*?(?=^- id:|\z)').Value
 if (-not $gold -or [regex]::Matches($publications, '^- id: "gold-volatility"', 'Multiline').Count -ne 1) {
-  throw "The accepted Mathematics paper should occur exactly once"
+  throw "the published Mathematics paper should occur exactly once"
 }
 if ($gold -notmatch 'Xueping Diao<sup>\*</sup>, Xueqiang Lv, <strong>Weizheng Wang</strong>, Junyi Wu' -or
-    $gold -notmatch 'Accepted for publication in <em>Mathematics</em> \(MDPI\), 2 November 2026' -or
-    $gold -match 'Under revision|Submitted to|doi\.org') {
-  throw "The Mathematics citation should preserve verified authors and acceptance without invented publication details"
+    $gold -notmatch '<em>Mathematics</em>, 14\(21\), 4115\. Published 9 November 2026' -or
+    $gold -notmatch 'www\.mdpi\.com/2227-7390/14/21/4115') {
+  throw "The Mathematics citation should preserve verified authors and the publisher's citation"
 }
 if ([regex]::Matches($publications, '^- id:', 'Multiline').Count -ne 14) {
-  throw "Publications should retain all 13 earlier entries plus the accepted Mathematics paper"
+  throw "Publications should retain all 13 earlier entries plus the published Mathematics paper"
 }
-if ([regex]::Matches($publications, 'Submitted to <em>').Count -ne 7 -or
+if ([regex]::Matches($publications, 'Submitted to <em>').Count -ne 6 -or
     [regex]::Matches($publications, 'Submitted to <em>IEEE ICASSP 2027').Count -ne 4) {
-  throw "Publications should include seven submitted manuscripts, four submitted to ICASSP 2027"
+  throw "Publications should label six manuscripts as submitted, four submitted to ICASSP 2027"
 }
 @("index.md", "_data/publications.yml") | ForEach-Object {
   Assert-FileNotContains -Path $_ -Pattern "Submitted to ICIP|Under review" -Message "Publication status should not use the outdated ICIP submission or unconfirmed review status"

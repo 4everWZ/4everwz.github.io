@@ -8,7 +8,7 @@
   title: "MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents"
   content: |
     <p>Belal S. Alsinglawi<sup>†</sup>, <strong>Weizheng Wang<sup>†</sup></strong>, Junyi Wu<sup>†</sup>, Lianhai Lin, Mérouane Debbah, Izzat Alsmadi.</p>
-    <p>2026 · Submitted to <em>Applied Soft Computing</em>. <a href="https://arxiv.org/abs/2607.23870">arXiv:2607.23870</a></p>
+    <p>2026 · arXiv preprint. <a href="https://arxiv.org/abs/2607.23870">arXiv:2607.23870</a></p>
     <p>An offline, protocol-conditioned UAV decision benchmark with 3,024 samples, 17 task-taxonomy nodes, 12 scoring dimensions, and evaluation of 17 multimodal models. Separates semantic decision quality from structural compliance, unsafe actions, and parsing failures.</p>
 - id: "h2t-deim"
   group: "2026"
@@ -22,7 +22,7 @@
   title: "A Multi-Source Data Fusion and PSO-Transformer Decision Support System for Gold Price Volatility Forecasting and Risk Warning"
   content: |
     <p>Xueping Diao<sup>*</sup>, Xueqiang Lv, <strong>Weizheng Wang</strong>, Junyi Wu.</p>
-    <p>2026 · Accepted for publication in <em>Mathematics</em> (MDPI), 2 November 2026.</p>
+    <p><em>Mathematics</em>, 14(21), 4115. Published 9 November 2026. <a href="https://www.mdpi.com/2227-7390/14/21/4115">Publisher</a></p>
 - id: "trim"
   group: "2026"
   title: "TRIM: Dual-Budget Structured Pruning with Information-Modulated Saliency for CNN, Transformer, and Mamba Vision Models"

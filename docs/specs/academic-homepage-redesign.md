@@ -8,7 +8,7 @@ Present Weizheng Wang's profile as a concise academic homepage for prospective s
 
 The homepage is a selected academic index rather than a complete CV or a dual research/industry landing page.
 
-- Lead with name, portrait, current degree, research summary, interests, and direct contact links.
+- Lead with name, portrait, current degree, research summary, interests, direct contact links, and links to two representative edge AI projects.
 - Show exactly three selected publications, three updates, three research experiences, two education entries, and three selected honors.
 - Link each collection to its complete content page instead of appending new homepage entries.
 - Keep `/about/` and `/projects/` available for existing links; use `/projects/` as the Research Experience page.
@@ -18,10 +18,10 @@ The homepage is a selected academic index rather than a complete CV or a dual re
 
 ## Academic Content
 
-- Content source: the English complete CV (`resume.tex`, `resume/`, `resume.pdf`) and Chinese PDF in `D:\Code\Latex\Awesome_CV`, synchronized September 2026. The upstream `cv.tex` is not a personal CV.
-- Selected publications prioritize first-author and co-first-author work, with first-listed authorship first: TRIM and When Retrieval Is Not Binding (both submitted to IEEE ICASSP 2027), followed by the co-first-authored IEEE ICIP 2026 thermal detection paper. Mark equal contributions and distinguish submitted manuscripts from peer-reviewed publications.
+- Content source: the English complete CV (`resume.tex`, `resume/`, `resume.pdf`) and Chinese PDF in `D:\Code\Latex\Awesome_CV`. Update public CVs only with materials suitable for public release. The upstream `cv.tex` is not a personal CV.
+- Selected publications lead with the co-first-authored IEEE ICIP 2026 thermal detection paper and the MulRobBench arXiv preprint, followed by When Retrieval Is Not Binding (submitted to IEEE ICASSP 2027). Mark equal contributions and distinguish published papers, preprints, and submitted manuscripts.
 - Group publications by year in descending order, keeping submission status on each manuscript. Use the submission year (2026) for ICASSP 2027 manuscripts, not the conference edition. Within a year, preserve CV order when precise dates are unavailable; keep patents separate.
-- The publications page includes seven submitted manuscripts, including FHS-DEIM (submitted in 2026 to Journal of King Saud University Computer and Information Sciences; technical checks passed), the gold-volatility paper accepted by Mathematics (MDPI) on 2 November 2026, and four published peer-reviewed papers in the CV, plus the two earlier papers on Improved YOLOv11 and Ordos mine monitoring retained at the owner's request. Preserve older awards as well.
+- The publications page includes the MulRobBench arXiv preprint and six manuscripts labeled as submitted, including FHS-DEIM (submitted in 2026 to Journal of King Saud University Computer and Information Sciences; technical checks passed), the gold-volatility paper published in Mathematics on 9 November 2026 (14(21), 4115), and four published peer-reviewed papers in the CV, plus the two earlier papers on Improved YOLOv11 and Ordos mine monitoring retained at the owner's request. Preserve older awards as well.
 - Selected experience: Zayed University/MulRobBench, Huawei MindSpore/MindNLP, and Automatic Inspection and Rescue Based on Drone Nest. Keep Baiyangdian and collaborative research in the paginated experience list.
 - Open-source selection follows the latest CV: Jetson VLM Lab, DEIM Jetson Acceleration, Video-based Intelligent Alert System (undergraduate thesis), DailyPaper, CleanSlateTab, and SnapPin. Give each a concise factual description and repository link on the dedicated Open Source page. Exclude miscellaneous tools and unprofessional repository names from both the site selection and downloadable CVs.
 - Research positioning: multimodal UAV decision evaluation, visual episodic memory, efficient computer vision, structured pruning, and edge deployment.

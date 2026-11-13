@@ -14,9 +14,10 @@ title: Home
   <div class="profile-summary">
     <h1 id="profile-name">Weizheng Wang <span lang="zh">王维政</span></h1>
     <p class="profile-role">Master of Artificial Intelligence and Machine Learning graduate</p>
-    <p>I study multimodal UAV decision evaluation, visual memory, efficient computer vision, and edge deployment. From February to August 2026, I worked remotely as a Research Assistant at Zayed University on protocol-conditioned evaluation of multimodal UAV agents.</p>
+    <p>I build and evaluate multimodal AI systems for UAVs and edge devices. From February to August 2026, I worked remotely as a Research Assistant at Zayed University on protocol-conditioned evaluation of multimodal UAV agents.</p>
     <p>Before Adelaide, I completed a B.Eng. in Computer Science and Technology at North China Institute of Science and Technology, where I worked on UAV monitoring, object detection, and practical perception systems.</p>
     <p class="research-interests"><strong>Research interests:</strong> multimodal evaluation, visual episodic memory, efficient vision, structured pruning, and UAV/edge AI.</p>
+    <p><strong>Selected projects:</strong> <a href="https://github.com/4everWZ/jetson-vlm-lab">Jetson VLM Lab</a> (multimodal inference benchmarks) and <a href="https://github.com/4everWZ/DEIM_Jetson_Acceleration">DEIM Jetson Acceleration</a> (ONNX/TensorRT and FP16/INT8 profiling).</p>
     <ul class="profile-links" aria-label="Profile links">
       <li><a href="mailto:weizheng.wang.cs@gmail.com">Email</a></li>
       <li><a href="{{ '/assets/CV.pdf' | relative_url }}">CV</a></li>
@@ -35,16 +36,16 @@ title: Home
     </div>
     <ol class="academic-list publication-preview-list">
       <li>
-        <p class="item-title">TRIM: Dual-Budget Structured Pruning with Information-Modulated Saliency for CNN, Transformer, and Mamba Vision Models</p>
-        <p><strong>W. Wang<sup>†</sup></strong>, J. Wu<sup>†</sup>, Q. Tian, and L. Tian. Submitted to <em>IEEE ICASSP 2027</em>, 2026. <a href="https://github.com/4everWZ/TRIM">Repository</a></p>
+        <p class="item-title">A Lightweight Thermal Denoising and Occlusion-Robust Infrared Detection Model for Substation Equipment</p>
+        <p>J. Wu<sup>†</sup>, <strong>W. Wang<sup>†</sup></strong>, Y. Niu, X. Shi, and L. Tian. <em>IEEE ICIP</em>, 2026. <a href="https://github.com/4everWZ/PO-YOLO">Code</a></p>
+      </li>
+      <li>
+        <p class="item-title">MulRobBench: A Decision-Level Benchmark for Safe and Security-Policy-Compliant Multimodal UAV Agents</p>
+        <p>B. S. Alsinglawi<sup>†</sup>, <strong>W. Wang<sup>†</sup></strong>, J. Wu<sup>†</sup>, L. Lin, M. Debbah, and I. Alsmadi. <a href="https://arxiv.org/abs/2607.23870">arXiv preprint</a>, 2026.</p>
       </li>
       <li>
         <p class="item-title">When Retrieval Is Not Binding: A Diagnostic Benchmark for Visual Episodic Memory</p>
         <p><strong>W. Wang<sup>†</sup></strong>, J. Wu<sup>†</sup>, L. Tian, and Q. Tian. Submitted to <em>IEEE ICASSP 2027</em>, 2026. <a href="https://github.com/4everWZ/retrieval-not-binding">Repository</a></p>
-      </li>
-      <li>
-        <p class="item-title">A Lightweight Thermal Denoising and Occlusion-Robust Infrared Detection Model for Substation Equipment</p>
-        <p>J. Wu<sup>†</sup>, <strong>W. Wang<sup>†</sup></strong>, Y. Niu, X. Shi, and L. Tian. <em>IEEE ICIP</em>, 2026. <a href="https://github.com/4everWZ/PO-YOLO">Code</a></p>
       </li>
     </ol>
     <p class="note"><sup>†</sup> Equal contribution. Submitted manuscripts are not yet accepted.</p>
@@ -56,7 +57,7 @@ title: Home
     </div>
     <ul class="compact-academic-list">
       <li><time datetime="2026">2026</time><span>Submitted TRIM, visual episodic-memory diagnostics, ManiSeg, and EmergUAV-Bench to <em>IEEE ICASSP 2027</em>.</span></li>
-      <li><time datetime="2026">2026</time><span>Released the <a href="https://arxiv.org/abs/2607.23870">MulRobBench preprint</a>; submitted to <em>Applied Soft Computing</em>.</span></li>
+      <li><time datetime="2026">2026</time><span>Released the <a href="https://arxiv.org/abs/2607.23870">MulRobBench preprint</a>.</span></li>
       <li><time datetime="2026-02">2026</time><span>Joined Zayed University as a remote Research Assistant in February.</span></li>
     </ul>
   </section>
